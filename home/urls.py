@@ -1,11 +1,10 @@
+from unittest import load_tests
 from django.urls import path
 
-from .views import home
-from about.views import about
-from earn.views import  earn
+from .views import home, earn,lotto
 
 urlpatterns = [
     path("", home),
-    path("about/", about),
-    path("earn/", earn) 
+    path("earn/", earn),
+    path("lotto/", lotto) 
 ]
