@@ -1,4 +1,3 @@
-from unicodedata import name
 from .models import Product
 
 # IMPLEMENTING DJANGO ORM
